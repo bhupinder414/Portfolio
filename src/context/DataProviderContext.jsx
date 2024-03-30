@@ -15,6 +15,7 @@ import { TbBrandVscode } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
 import imageSrc from "../assets/novoinvent_logo.png";
 import projectImageSrc1 from "../assets/project1.png";
+import projectImageSrc2 from "../assets/project2.png";
 
 const data = {
   name: "BHUPINDER PAL",
@@ -176,11 +177,19 @@ const data = {
   projects: [
     {
       id: "1",
+      imgageSrc: projectImageSrc2,
+      name: "Personal Portfolio",
+      description: [`Personal Portfolio website`],
+      codeLink: "https://github.com/bhupinder414/Portfolio",
+      target: "_blank",
+      websiteLink: "https://bhupinderpal.netlify.app/",
+    },
+    {
+      id: "2",
       imgageSrc: projectImageSrc1,
-      name: "Project 1",
+      name: "React Meetups",
       description: [
-        ` desccccccccccccc xhuhf sdjisjdij sdij sdijs djisjd siisd sdji sdjis djif
-  jd fsjifjsi`,
+        `A project made using next.js where you can add and see all meetups`,
       ],
       codeLink: "",
       target: "_blank",

@@ -42,7 +42,14 @@ const StyledLink = styled(Link)`
   }
 `;
 
-function ProjectCard({ imgageSrc, name, description, websiteLink, target }) {
+function ProjectCard({
+  imgageSrc,
+  name,
+  description,
+  websiteLink,
+  target,
+  codeLink,
+}) {
   const { deviceSize } = useStateData();
   const width = deviceSize === "small" ? "100%" : "60%";
   return (
@@ -72,7 +79,9 @@ function ProjectCard({ imgageSrc, name, description, websiteLink, target }) {
         <StyledLink to={websiteLink} target={target}>
           <HiOutlineExternalLink style={{ width: "4rem", height: "4rem" }} />
         </StyledLink>
-        <FaGithub style={{ width: "4rem", height: "4rem" }} />
+        <StyledLink to={codeLink} target={target}>
+          <FaGithub style={{ width: "4rem", height: "4rem" }} />
+        </StyledLink>
       </StyledDiv>
     </Card>
   );

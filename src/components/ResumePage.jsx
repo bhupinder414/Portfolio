@@ -258,7 +258,12 @@ const ResumePage = () => {
                     </StyledListItem>
                   ))}
                 </StyledList>
-                <StyledDiv>Project Link: {ele.websiteLink}</StyledDiv>
+                <StyledDiv>
+                  Project Link:
+                  <Link to={ele.websiteLink} target="_blank">
+                    {ele.websiteLink}
+                  </Link>
+                </StyledDiv>
               </div>
             ))}
           </ProjectContainer>
