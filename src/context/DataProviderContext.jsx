@@ -187,13 +187,14 @@ const data = {
     {
       id: "2",
       imgageSrc: projectImageSrc1,
-      name: "React Meetups",
+      name: "Movie Mania Mingle",
       description: [
-        `A project made using next.js where you can add and see all meetups`,
+        `Movie Mania Mingle is a comprehensive movie website that showcases all movies and TV shows, including their casts and trailers. Users can search for movies and TV shows seamlessly. The project is built with React, React Router DOM, Tailwind CSS, and utilizes the TMDB Movie API for data.`,
       ],
-      codeLink: "",
+      codeLink:
+        "https://github.com/bhupinder414/Movie-Mania-Mingle/tree/master",
       target: "_blank",
-      websiteLink: "https://next-js-demo-taupe.vercel.app/",
+      websiteLink: "https://moviemaniamingle.netlify.app/",
     },
   ],
   skills: [
